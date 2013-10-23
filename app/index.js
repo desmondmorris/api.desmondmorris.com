@@ -13,6 +13,7 @@ var data = {
   age: 30,
   photo: 'http://dezz.me/pic',
   email: 'hi@desmondmorris.com',
+  blurb: 'Software engineer. Hip-Hop fan. Runner. Hacker of things. I head up engineering at DoSomething.org',
   web: 'http://desmondmorris.com',
   twitter: {
     'username': 'desmondmorris',
