@@ -11,6 +11,7 @@ var data = {
   lastname: 'Morris',
   date_of_birth: '09/11/1983',
   age: 30,
+  height: 180.34,
   photo: 'http://dezz.me/pic',
   email: 'hi@desmondmorris.com',
   blurb: 'Software engineer. Hip-Hop fan. Runner. Hacker of things. I head up engineering at DoSomething.org',
