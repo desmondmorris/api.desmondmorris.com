@@ -2,7 +2,8 @@
 /**
  * Module dependencies.
  */
-var http = require('http');
+var express = require('express');
+var app = express();
 
 var data = {
   status: 'alive',
@@ -36,7 +37,9 @@ var data = {
   skype: 'desmondmorris'
 };
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'application/json'});
+app.get('/', function(req, res) {
+  res.type('application/json');
   res.end(JSON.stringify(data));
-}).listen(process.env.PORT || 3000);
+});
+
+app.listen(process.env.PORT || 3000);
