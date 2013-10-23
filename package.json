@@ -1,0 +1,32 @@
+{
+  "name": "api.desmondmorris.com",
+  "version": "0.0.1",
+  "description": "A simple human api server",
+  "scripts": {
+    "start": "node app/index"
+  },
+  "homepage": "http://api.desmondmorris.com",
+  "bugs": "https://github.com/desmondmorris/api.desmondmorris.com/issues",
+  "author": {
+    "name": "Desmond Morris",
+    "email": "hi@desmondmorris.com",
+    "url": "https://github.com/desmondmorris"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/desmondmorris/api.desmondmorris.com.git"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/desmondmorris/api.desmondmorris.com/master/LICENSE"
+    }
+  ]
+}
