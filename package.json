@@ -16,6 +16,9 @@
     "type": "git",
     "url": "git://github.com/desmondmorris/api.desmondmorris.com.git"
   },
+  "dependencies": {
+    "node-nike": "*"
+  },
   "devDependencies": {
     "mocha": "*",
     "should": "*"
